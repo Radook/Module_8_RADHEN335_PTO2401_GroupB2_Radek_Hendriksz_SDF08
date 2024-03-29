@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dooks Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="dropdown">
+                <button class="dropdown-btn fab fa-stackpath"></button>
+                <div class="dropdown-content">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#work">Work</a>
+                </div>
+            </div>
+        </header>
+        
+       
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Radek Hendriksz</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="imgs/IMG_20230114_203254_068.jpg" alt="me if i was hot" class="intro__img">
+        </section>
+        
+        
+        
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Front End + Sass</h3>
+                    <p>As a beginner, delving into the world of CSS has been a rewarding journey filled with excitement and discovery. With every line of code, I find myself unlocking new possibilities and witnessing immediate visual transformations in my web projects. CSS empowers me to experiment with different styles, colors, and layouts, providing me with a tangible sense of creativity and accomplishment as I see my designs come to life</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Digi Art</h3>
+                    <p>Digital art serves as a rich wellspring of inspiration and innovation for front-end developers, offering a multitude of creative concepts, styles, and techniques that can be adapted and integrated into web design projects. Studying digital art allows developers to explore diverse color palettes, composition principles, and visual storytelling methods, enhancing their ability to craft visually compelling and user-friendly interfaces.</p>
+                </div> 
+                
+            </div> 
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+    
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">About me</h2>
+           <p class="section__subtitle section__subtitle--about">Css-to-be developer</p>
+           
+           <div class="about-me__body">
+               <p>As a Sass developer and digital artist, I merge technical prowess with artistic flair to craft visually stunning and dynamic digital experiences. With Sass, I harness the power of preprocessing to streamline CSS workflows, ensuring efficient and scalable styling solutions. In my role as a digital artist, I explore a diverse range of mediums and techniques, from illustration to animation, to create immersive and engaging visual narratives. </p>
+               <p>Through my work, I aim to blend innovative design with seamless functionality, pushing the boundaries of creativity in both web development and digital artistry.</p>
+           </div>
+           
+           <img src="imgs/IMG_20230114_203254_068.jpg" alt="me if i was sexy" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+              
+                <a href="https://codepen.io/Radook/pen/RwdMmdr" class="portfolio__item img3d">
+                    <img src="imgs/buttons.PNG" alt="" class="portfolio__img">
+                </a>
+                
+                
+                <a href="https://pip-test.netlify.app/" class="portfolio__item img3d">
+                    <img src="imgs/hanky.PNG" alt="" class="portfolio__img">
+                </a>
+                
+            
+                <a href="https://tallycountah.netlify.app/" class="portfolio__item img3d">
+                    <img src="imgs/tally.PNG" alt="" class="portfolio__img">
+                </a>
+                
+                
+               
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:radekhendriksz@gmail.com.dev" class="footer__link">radekhendriksz@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
